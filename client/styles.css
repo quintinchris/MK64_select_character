@@ -1,0 +1,58 @@
+body {
+    background: url(../client/images/mk64background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.color-overlay {
+    width: 100%;
+    height: 130%;
+    background: rgb(47, 167, 75);
+    opacity: .5;
+    position: absolute;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.title {
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    text-align: center;
+    position: relative;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.card {
+    width: 16rem;
+    margin-bottom: 1em;
+}
+
+.card-img-top {
+    background-color: black;
+    width: 16rem;
+    height: 16rem;
+}
+
+.card-img-top:hover {
+    -webkit-box-shadow: inset 0px 0px 12px 13px rgba(0, 72, 255, 1);
+    -moz-box-shadow: inset 0px 0px 12px 13px rgba(0, 72, 255, 1);
+    box-shadow: inset 0px 0px 12px 13px rgba(0, 72, 255, 1);
+    border: 5px solid blue;
+    cursor: pointer;
+}
+
+.card-text {
+    text-align: center;
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+}
